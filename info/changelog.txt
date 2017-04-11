@@ -1,0 +1,29 @@
+   *** Version History ***
+   
+   
+V-0.1.0: Unofficial Release
+Released: 04/04/2016
+**Libraries**
+GCorev0.2.1
+
+  --  Added MKSUnit and SIUnit classes for holding every commonly used type of unit for measurements so you
+      can easily do dimensional analysis on the measure class
+      
+  --  Added Classes for all of the basal and derived SI types that have names along with corresponding 
+      measurements that are not metric for conversion from standard to metric.
+      
+  --  Added a Measure class to hold a measurement, this is a subclass of the Unit class from GCore
+  
+  --  Added utils in the measure class to handle multiplication, division, addition and subtraction of
+      units from each other, it should be noted that these are limit to the precision of the double in java.
+      
+
+V-0.1.0.1: Bug Fix Update
+Released: 04/20/2016
+**Libraries**
+GCorev0.2.1
+
+  --  Fixed a bug with the values of the mass conversion units
+      
+  --  Added a util in the scalar conversion interface that will allow the addition of user defined units
+      based off of the units that are already in the program.
